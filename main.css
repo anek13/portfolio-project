@@ -1,0 +1,186 @@
+body {
+  font-family: 'Roboto', sans-serif;;
+  font-size: 16px;
+  color: #424242;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.content {
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #eaeaf2;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+/*
+Header section
+*/
+
+header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  min-height: 56px;
+  transition: min-height 0.3s;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+
+header .title_block {
+  display: inline-block;
+}
+
+header .title {
+  font-weight: 400;
+  font-size: 3em;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  text-align: right;
+  color: #212121;
+}
+
+header .subtitle {
+  font-weight: 200;
+  font-size: 1.2em;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  text-align: right;
+  color: #212121;
+}
+
+header .logo {
+  height: 72px;
+  margin-right: 1.5em;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+/*
+hero section
+*/
+
+.hero {
+  width: 100%;
+  position: relative;
+  background-image: url("./images/mountain.jpg");
+  background-size: cover;
+  min-height: 400px;
+
+}
+
+.hero article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+/*
+demo section
+demonstration of projects etc
+*/
+
+.demo {
+  display: block;
+  width:100%;
+}
+
+.demo_projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.demo h2 {
+  color: #212121;
+  padding-left: 12px;
+}
+
+.demo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.demo a:hover {
+  text-decoration: underline;
+}
+
+.project {
+  padding: 5px;
+  margin: 5px;
+  background: linear-gradient(to right, #242d40,#565c65,#9f9fa4,#575c63,#272d40);
+  border: thin solid #E0E0E0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.project h3 {
+  padding-left: 12px;
+  font-weight: 400;
+}
+
+.project img {
+  display: block;
+  border: thin solid #E0E0E0;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.project a:hover img {
+  transform: scale(1.05);
+}
+
+/*
+footer section
+*/
+
+footer {
+  border-top: 1px solid #E0E0E0;
+  padding: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  padding: 1.5em;
+}
+
+/*
+social media
+*/
+
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+.social a:hover {
+  color: #212121;
+  text-decoration: underline;
+}
