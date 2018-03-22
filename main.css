@@ -172,14 +172,6 @@ footer a {
 social media
 */
 
-[class*="zocial-"]:before {
-  color: black;
-  display: inline-block;
-  font-family: 'zocial', sans-serif;
-  text-shadow: 3px 3px 3px #aaa;
-  width: 2em;
-}
-
 .social a:hover {
   color: #212121;
   text-decoration: underline;
